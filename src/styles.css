@@ -7,11 +7,11 @@
   --line: #E7E5E4;
   --line-soft: #F0EEEC;
   --line-strong: #D6D3D1;
-  --accent: #C2410C;       /* laranja: links, marcas */
-  --accent-dark: #9A3412;
-  --accent-tint: #FFEDD5;
-  --accent-ink: #7C2D12;
-  --accent-on-dark: #FDBA74;
+  --accent: #2A8533;       /* verde da marca: links, ícones, destaques */
+  --accent-dark: #226B29;
+  --accent-tint: #E3F2E4;
+  --accent-ink: #1B5420;
+  --accent-on-dark: #7FD088;
   --on-dark-muted: #E7E5E4;
   --button: #2A8533;       /* verde: botões e seletores */
   --button-dark: #226B29;
