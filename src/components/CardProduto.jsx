@@ -32,7 +32,9 @@ export default function CardProduto({ produto, comQuantidade = false }) {
             </div>
           )}
           <button type="button" className={`btn btn-primary${ok ? ' added' : ''}`} onClick={comprar}>
-            {ok ? 'Adicionado ✓' : comQuantidade ? 'Comprar' : 'Adicionar ao carrinho'}
+            {ok ? 'Adicionado ✓' : comQuantidade ? 'Comprar' : (
+              <><span className="label-long">Adicionar ao carrinho</span><span className="label-short">Adicionar</span></>
+            )}
           </button>
         </div>
       </div>

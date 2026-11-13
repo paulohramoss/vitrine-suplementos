@@ -33,17 +33,17 @@ export default function Home() {
 
         <div className="hero-grid">
           <Link to={`/catalogo?q=${encodeURIComponent(principal.nome)}`} className="tile tile-tall">
-            <div style={{ aspectRatio: '1/1' }}><FotoProduto produto={principal} eager /></div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 8 }}>
-              <div><div className="muted" style={{ fontSize: 12 }}>{principal.marca}</div><div style={{ fontWeight: 600, fontSize: 15 }}>{principal.nome}</div></div>
-              <div className="price" style={{ fontSize: 20, whiteSpace: 'nowrap', margin: 0 }}>{moeda(principal.preco)}</div>
+            <div className="tile-img"><FotoProduto produto={principal} eager /></div>
+            <div className="tile-meta">
+              <div><div className="tile-brand">{principal.marca}</div><div className="tile-name">{principal.nome}</div></div>
+              <div className="price tile-price">{moeda(principal.preco)}</div>
             </div>
           </Link>
           <Link to={`/catalogo?q=${encodeURIComponent(segundo.nome)}`} className="tile tile-tall">
-            <div style={{ aspectRatio: '1/1' }}><FotoProduto produto={segundo} eager /></div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 8 }}>
-              <div><div className="muted" style={{ fontSize: 12 }}>{segundo.marca}</div><div style={{ fontWeight: 600, fontSize: 15 }}>{segundo.nome}</div></div>
-              <div className="price" style={{ fontSize: 20, whiteSpace: 'nowrap', margin: 0 }}>{moeda(segundo.preco)}</div>
+            <div className="tile-img"><FotoProduto produto={segundo} eager /></div>
+            <div className="tile-meta">
+              <div><div className="tile-brand">{segundo.marca}</div><div className="tile-name">{segundo.nome}</div></div>
+              <div className="price tile-price">{moeda(segundo.preco)}</div>
             </div>
           </Link>
         </div>
