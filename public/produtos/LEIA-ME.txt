@@ -1,0 +1,4 @@
+Coloque aqui as fotos dos produtos com o nome igual ao "slug" do produto em src/data/produtos.json.
+Ex.: npro-whey-baunilha-refil-900g.jpg
+Formato recomendado: JPG ou WEBP quadrado, fundo branco, ~800x800.
+Enquanto a foto não existir, o site mostra um placeholder com a marca.
