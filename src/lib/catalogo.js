@@ -5,8 +5,8 @@ export const LOJA = {
   razaoSocial: '[RAZÃO SOCIAL]',
   cnpj: '[00.000.000/0001-00]',
   horario: 'Seg a sex, 8h às 18h',
-  whatsapp: import.meta.env.VITE_WHATSAPP || '',
-  whatsappComercial: import.meta.env.VITE_WHATSAPP_COMERCIAL || import.meta.env.VITE_WHATSAPP || '',
+  whatsapp: import.meta.env.VITE_WHATSAPP || '554988048588',
+  whatsappExibicao: '(49) 8804-8588',
   parcelas: 3,
 }
 

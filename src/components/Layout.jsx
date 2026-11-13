@@ -57,8 +57,8 @@ function Footer() {
     <footer className="footer" id="contato">
       <div className="wrap">
         <div><span className="logo-name">{LOJA.nome}</span><span>{LOJA.razaoSocial}</span><span>CNPJ {LOJA.cnpj}</span></div>
-        <div><strong>Atendimento</strong><span>{LOJA.whatsapp ? `WhatsApp ${LOJA.whatsapp}` : '[SEU NÚMERO]'}</span><span>{LOJA.horario}</span></div>
-        <div><strong>Pagamento</strong><span>Pix, cartão em {LOJA.parcelas}x e boleto para revendedores</span></div>
+        <div><strong>Atendimento</strong><span><a href={`https://wa.me/${LOJA.whatsapp}`} target="_blank" rel="noreferrer">WhatsApp {LOJA.whatsappExibicao}</a></span><span>{LOJA.horario}</span></div>
+        <div><strong>Pagamento</strong><span>Pix ou cartão em {LOJA.parcelas}x sem juros</span></div>
         <div><strong>Compra segura</strong><span>Nota fiscal em todo pedido · Política de trocas</span></div>
       </div>
     </footer>
@@ -89,7 +89,6 @@ export default function Layout() {
       <div className="topbar">
         <div className="wrap">
           <span>Produtos originais com nota fiscal · Envio para todo o Brasil</span>
-          <span>Revendedor? Boleto a prazo — fale com o comercial</span>
         </div>
       </div>
       <Header />

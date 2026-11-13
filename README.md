@@ -17,8 +17,7 @@ Build de produção: `npm run build` (sai em `dist/`). Já tem `vercel.json` pro
 
 | Variável | O que é |
 | --- | --- |
-| `VITE_WHATSAPP` | Número que recebe os pedidos, só dígitos com DDI+DDD (ex.: `5549999999999`) |
-| `VITE_WHATSAPP_COMERCIAL` | Número do comercial pros revendedores (opcional, cai no de cima) |
+| `VITE_WHATSAPP` | Número que recebe os pedidos, só dígitos com DDI+DDD (ex.: `554988048588`) |
 
 Razão social, CNPJ e horário ficam em `src/lib/catalogo.js` (objeto `LOJA`).
 

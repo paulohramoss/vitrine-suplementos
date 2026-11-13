@@ -90,9 +90,6 @@ export default function Catalogo() {
           {temFiltro && (
             <button type="button" className="btn btn-ghost btn-sm" onClick={() => setParams({}, { replace: true })}>Limpar filtros</button>
           )}
-          <div className="note">
-            <strong>É revendedor?</strong>Fale com o comercial pelo WhatsApp e receba a tabela de parceiro.
-          </div>
         </aside>
 
         <section aria-label="Produtos" className="results">
