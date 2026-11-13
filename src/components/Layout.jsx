@@ -31,8 +31,7 @@ function Header() {
     <header className="header">
       <div className="wrap header-row">
         <Link to="/" className="logo" aria-label={`${LOJA.nome}, início`}>
-          <span className="logo-mark" aria-hidden="true">V</span>
-          <span className="logo-name">{LOJA.nome}</span>
+          <img src="/marca/bz-logo-horizontal.svg" alt={LOJA.nome} className="logo-img" width="220" height="40" />
         </Link>
         <Busca />
         <nav aria-label="Atalhos" className="header-actions">
@@ -56,7 +55,7 @@ function Footer() {
   return (
     <footer className="footer" id="contato">
       <div className="wrap">
-        <div><span className="logo-name">{LOJA.nome}</span><span>{LOJA.razaoSocial}</span><span>CNPJ {LOJA.cnpj}</span></div>
+        <div><img src="/marca/bz-logo-horizontal.svg" alt={LOJA.nome} className="footer-logo" width="165" height="30" loading="lazy" /><span>{LOJA.razaoSocial}</span><span>CNPJ {LOJA.cnpj}</span></div>
         <div><strong>Atendimento</strong><span><a href={`https://wa.me/${LOJA.whatsapp}`} target="_blank" rel="noreferrer">{LOJA.whatsappExibicao}</a></span><span>{LOJA.horario}</span></div>
         <div><strong>Pagamento</strong><span>Pix ou cartão em {LOJA.parcelas}x sem juros</span></div>
         <div><strong>Compra segura</strong><span>Nota fiscal em todo pedido · Política de trocas</span></div>
