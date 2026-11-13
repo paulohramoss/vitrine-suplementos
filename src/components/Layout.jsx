@@ -57,7 +57,7 @@ function Footer() {
     <footer className="footer" id="contato">
       <div className="wrap">
         <div><span className="logo-name">{LOJA.nome}</span><span>{LOJA.razaoSocial}</span><span>CNPJ {LOJA.cnpj}</span></div>
-        <div><strong>Atendimento</strong><span><a href={`https://wa.me/${LOJA.whatsapp}`} target="_blank" rel="noreferrer">WhatsApp {LOJA.whatsappExibicao}</a></span><span>{LOJA.horario}</span></div>
+        <div><strong>Atendimento</strong><span><a href={`https://wa.me/${LOJA.whatsapp}`} target="_blank" rel="noreferrer">{LOJA.whatsappExibicao}</a></span><span>{LOJA.horario}</span></div>
         <div><strong>Pagamento</strong><span>Pix ou cartão em {LOJA.parcelas}x sem juros</span></div>
         <div><strong>Compra segura</strong><span>Nota fiscal em todo pedido · Política de trocas</span></div>
       </div>
