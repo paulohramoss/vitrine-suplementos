@@ -1,7 +1,7 @@
 import produtos from '../data/produtos.json'
 
 export const LOJA = {
-  nome: 'Vitrine Suplementos',
+  nome: 'BZ Suplementos',
   razaoSocial: '[RAZÃO SOCIAL]',
   cnpj: '[00.000.000/0001-00]',
   horario: 'Seg a sex, 8h às 18h',

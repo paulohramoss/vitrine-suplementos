@@ -1,4 +1,4 @@
-# Vitrine Suplementos
+# BZ Suplementos
 
 Loja online de suplementos: catálogo com filtros, carrinho e pedido finalizado pelo WhatsApp.
 React 19 + Vite + React Router + Zustand. Sem backend: os produtos ficam num JSON.
@@ -15,8 +15,8 @@ Build de produção: `npm run build` (sai em `dist/`). Já tem `vercel.json` pro
 
 ## Configuração
 
-| Variável | O que é |
-| --- | --- |
+| Variável        | O que é                                                                    |
+| --------------- | -------------------------------------------------------------------------- |
 | `VITE_WHATSAPP` | Número que recebe os pedidos, só dígitos com DDI+DDD (ex.: `554988048588`) |
 
 Razão social, CNPJ e horário ficam em `src/lib/catalogo.js` (objeto `LOJA`).
@@ -26,7 +26,15 @@ Razão social, CNPJ e horário ficam em `src/lib/catalogo.js` (objeto `LOJA`).
 Edite `src/data/produtos.json`:
 
 ```json
-{ "slug": "creatine-300g", "nome": "Creatine 300g", "marca": "Vitafor", "categoria": "Creatina", "preco": 71.05, "vendas": 88, "vitrine": true }
+{
+  "slug": "creatine-300g",
+  "nome": "Creatine 300g",
+  "marca": "Vitafor",
+  "categoria": "Creatina",
+  "preco": 71.05,
+  "vendas": 88,
+  "vitrine": true
+}
 ```
 
 - `slug`: identificador único, também é o nome da foto.
@@ -43,6 +51,7 @@ Coloque em `public/produtos/<slug>.jpg` (quadrada, fundo branco, ~800×800). Sem
 ## Cores
 
 Tudo em variáveis CSS no topo de `src/styles.css`:
+
 - `--accent` laranja `#C2410C`: logo, links, nome da marca
 - `--button` verde `#2A8533`: botões, seletores, filtro ativo e barra de preço
 - `--ink` grafite `#1C1917`: texto e faixas escuras
