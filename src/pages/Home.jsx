@@ -39,8 +39,12 @@ export default function Home() {
               <div className="price" style={{ fontSize: 20, whiteSpace: 'nowrap', margin: 0 }}>{moeda(principal.preco)}</div>
             </div>
           </Link>
-          <Link to={`/catalogo?q=${encodeURIComponent(segundo.nome)}`} className="tile" style={{ padding: 16, display: 'grid', placeItems: 'center', gridRow: 'span 2' }}>
-            <div style={{ width: '100%', maxWidth: 200, aspectRatio: '1/1' }}><FotoProduto produto={segundo} eager /></div>
+          <Link to={`/catalogo?q=${encodeURIComponent(segundo.nome)}`} className="tile tile-tall">
+            <div style={{ aspectRatio: '1/1' }}><FotoProduto produto={segundo} eager /></div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 8 }}>
+              <div><div className="muted" style={{ fontSize: 12 }}>{segundo.marca}</div><div style={{ fontWeight: 600, fontSize: 15 }}>{segundo.nome}</div></div>
+              <div className="price" style={{ fontSize: 20, whiteSpace: 'nowrap', margin: 0 }}>{moeda(segundo.preco)}</div>
+            </div>
           </Link>
         </div>
       </section>
