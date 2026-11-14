@@ -79,6 +79,9 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 800; letter-spacing:
 .pill-tint { align-self: flex-start; background: var(--accent-tint); color: var(--accent-dark); padding: 7px 12px; border-radius: 999px; }
 .hero h1 { font-size: clamp(36px, 5vw, 54px); line-height: 1.05; letter-spacing: -0.035em; text-wrap: balance; }
 .hero p { margin: 0; font-size: 18px; line-height: 1.55; color: var(--muted); max-width: 520px; }
+.hero-marcas { list-style: none; margin: -6px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.hero-marcas li { font-size: 13px; font-weight: 600; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; }
+.hero-marcas .hero-marcas-mais { background: none; border-color: transparent; color: var(--muted); font-weight: 500; padding-inline: 4px; }
 .row { display: flex; flex-wrap: wrap; gap: 12px; }
 .checks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px; color: var(--muted); }
 .checks span { display: flex; align-items: center; gap: 6px; }

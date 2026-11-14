@@ -15,14 +15,17 @@ export default function Home() {
   // "vitrine": true no JSON escolhe os 2 produtos do topo; senão usa os mais vendidos
   const vitrine = PRODUTOS.filter((p) => p.vitrine)
   const [principal, segundo] = vitrine.length >= 2 ? vitrine : maisVendidos
-  const nomesMarcas = MARCAS.slice(0, 4).map((m) => m.nome).join(', ')
 
   return (
     <>
       <section className="wrap hero">
         <div className="hero-text">
           <h1>Suplementos originais, com preço de quem compra direto.</h1>
-          <p>{nomesMarcas} e mais. Nota fiscal em todo pedido e atendimento de verdade pelo WhatsApp.</p>
+          <p>Nota fiscal em todo pedido e atendimento de verdade pelo WhatsApp.</p>
+          <ul className="hero-marcas" aria-label="Marcas disponíveis">
+            {MARCAS.slice(0, 4).map((m) => <li key={m.nome}>{m.nome}</li>)}
+            <li className="hero-marcas-mais">e mais</li>
+          </ul>
           <div className="row">
             <Link to="/catalogo" className="btn btn-primary">Ver catálogo completo</Link>          </div>
           <div className="checks">
