@@ -12,7 +12,8 @@ export const LOJA = {
 // Ordem fixa das categorias no menu e nos filtros
 export const CATEGORIAS = [
   'Proteínas', 'Creatina', 'Pré-treino', 'Barras e snacks',
-  'Ômega e óleos', 'Vitaminas e minerais', 'Sono',
+  'Aminoácidos', 'Ômega e óleos', 'Vitaminas e minerais', 'Sono',
+  'Saúde e bem-estar', 'Acessórios',
 ]
 
 export const PRODUTOS = produtos

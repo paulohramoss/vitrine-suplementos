@@ -1,10 +1,1228 @@
 [
-  {"slug": "npro-whey-baunilha-refil-900g", "nome": "NPRO Whey Baunilha Refil 900g", "marca": "Nutrata", "categoria": "Proteínas", "preco": 130.83, "vendas": 98},
-  {"slug": "carnibol-baunilha-900g", "nome": "Carnibol Baunilha 900g", "marca": "Darkness", "categoria": "Proteínas", "preco": 155.03, "vendas": 74, "vitrine": true},
-  {"slug": "whey-supreme-900g-chocolate", "nome": "Whey Supreme 900g Chocolate", "marca": "Macrophytus", "categoria": "Proteínas", "preco": 103.03, "vendas": 61},
-  {"slug": "creatine-300g", "nome": "Creatine 300g", "marca": "Vitafor", "categoria": "Creatina", "preco": 71.05, "vendas": 88, "vitrine": true},
-  {"slug": "creatina-hardcore-500g", "nome": "Creatina Hardcore 500g", "marca": "Integralmedica", "categoria": "Creatina", "preco": 57.58, "vendas": 95},
-  {"slug": "barra-proteica-dark-caramel-bar", "nome": "Barra Proteica Dark Caramel Bar", "marca": "Nutrata", "categoria": "Barras e snacks", "preco": 81.54, "vendas": 40},
-  {"slug": "omega-3-epa-dha-120-capsulas", "nome": "Ômega 3 EPA e DHA 120 cápsulas", "marca": "Vitafor", "categoria": "Ômega e óleos", "preco": 100.36, "vendas": 83},
-  {"slug": "pre-treino-shock-abacaxi-hortela-300g", "nome": "Pré-Treino Shock Abacaxi com Hortelã 300g", "marca": "Black Pharma", "categoria": "Pré-treino", "preco": 81.78, "vendas": 79}
+  {
+    "slug": "coenzima-q10-60-capsulas",
+    "nome": "Coenzima Q10 60 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Saúde e bem-estar",
+    "preco": 114.79,
+    "vendas": 0
+  },
+  {
+    "slug": "colagentek-protein-cacau-460g",
+    "nome": "ColagenTek Protein Cacau 460g",
+    "marca": "Vitafor",
+    "categoria": "Proteínas",
+    "preco": 167.83,
+    "vendas": 0
+  },
+  {
+    "slug": "colagentek-protein-morango-460g",
+    "nome": "ColagenTek Protein Morango 460g",
+    "marca": "Vitafor",
+    "categoria": "Proteínas",
+    "preco": 167.83,
+    "vendas": 0
+  },
+  {
+    "slug": "colagentek-protein-tangerina-460g",
+    "nome": "ColagenTek Protein Tangerina 460g",
+    "marca": "Vitafor",
+    "categoria": "Proteínas",
+    "preco": 167.83,
+    "vendas": 0
+  },
+  {
+    "slug": "creatine-300g",
+    "nome": "Creatine 300g",
+    "marca": "Vitafor",
+    "categoria": "Creatina",
+    "preco": 71.05,
+    "vendas": 88,
+    "vitrine": true
+  },
+  {
+    "slug": "curcuma-plus-60-capsulas",
+    "nome": "Cúrcuma Plus 60 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Saúde e bem-estar",
+    "preco": 72.77,
+    "vendas": 0
+  },
+  {
+    "slug": "enzyfor-10-saches",
+    "nome": "Enzyfor 10 sachês",
+    "marca": "Vitafor",
+    "categoria": "Saúde e bem-estar",
+    "preco": 59.86,
+    "vendas": 0
+  },
+  {
+    "slug": "magnesio-plus-90-capsulas",
+    "nome": "Magnésio Plus 90 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Vitaminas e minerais",
+    "preco": 73.29,
+    "vendas": 0
+  },
+  {
+    "slug": "mega-dha-120-capsulas",
+    "nome": "Mega DHA 120 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Ômega e óleos",
+    "preco": 145.91,
+    "vendas": 0
+  },
+  {
+    "slug": "melatonina-gotas-20ml",
+    "nome": "Melatonina Gotas 20ml",
+    "marca": "Vitafor",
+    "categoria": "Sono",
+    "preco": 39.93,
+    "vendas": 0
+  },
+  {
+    "slug": "n-acetil-cisteina-600mg",
+    "nome": "N-Acetil Cisteína 600mg",
+    "marca": "Vitafor",
+    "categoria": "Saúde e bem-estar",
+    "preco": 70.75,
+    "vendas": 0
+  },
+  {
+    "slug": "omega-3-epa-dha-120-capsulas",
+    "nome": "Ômega 3 EPA e DHA 120 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Ômega e óleos",
+    "preco": 100.36,
+    "vendas": 83
+  },
+  {
+    "slug": "omega-3-epa-e-dha-60-capsulas",
+    "nome": "Ômega 3 EPA e DHA 60 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Ômega e óleos",
+    "preco": 55.2,
+    "vendas": 0
+  },
+  {
+    "slug": "omegafor-plus-120-capsulas",
+    "nome": "Omegafor Plus 120 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Ômega e óleos",
+    "preco": 145.4,
+    "vendas": 0
+  },
+  {
+    "slug": "omegafor-plus-60-capsulas",
+    "nome": "Omegafor Plus 60 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Ômega e óleos",
+    "preco": 87.82,
+    "vendas": 0
+  },
+  {
+    "slug": "simfort-plus-30-capsulas",
+    "nome": "Simfort Plus 30 cápsulas",
+    "marca": "Vitafor",
+    "categoria": "Saúde e bem-estar",
+    "preco": 60.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-bacio-di-latte-caramelo-salgado",
+    "nome": "Barra Proteica Bacio di Latte Caramelo Salgado",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 97.23,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-bacio-di-latte-pistache",
+    "nome": "Barra Proteica Bacio di Latte Pistache",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 103.5,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-bacio-di-latte-pistache-caixa-maior",
+    "nome": "Barra Proteica Bacio di Latte Pistache (caixa maior)",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 128.56,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-caramel-bar-caramelo",
+    "nome": "Barra Proteica Caramel Bar Caramelo",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 81.54,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-charge-bar",
+    "nome": "Barra Proteica Charge Bar",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 110.08,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-charge-dark",
+    "nome": "Barra Proteica Charge Dark",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 110.08,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-dark-caramel-bar",
+    "nome": "Barra Proteica Dark Caramel Bar",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 81.54,
+    "vendas": 40
+  },
+  {
+    "slug": "barra-proteica-grego-bar-beijinho",
+    "nome": "Barra Proteica Grego Bar Beijinho",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-grego-bar-brigadeiro",
+    "nome": "Barra Proteica Grego Bar Brigadeiro",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-grego-bar-cookies-cream",
+    "nome": "Barra Proteica Grego Bar Cookies & Cream",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-grego-bar-morango-com-chantilly",
+    "nome": "Barra Proteica Grego Bar Morango com Chantilly",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-grego-bar-mousse-de-maracuja",
+    "nome": "Barra Proteica Grego Bar Mousse de Maracujá",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-grego-bar-torta-de-limao",
+    "nome": "Barra Proteica Grego Bar Torta de Limão",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 76.84,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-havanna-grego-bar-banoffee",
+    "nome": "Barra Proteica Havanna Grego Bar Banoffee",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 86.25,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-havanna-grego-bar-doce-de-leite",
+    "nome": "Barra Proteica Havanna Grego Bar Doce de Leite",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 86.25,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-havanna-grego-doce-de-leite-e-brownie",
+    "nome": "Barra Havanna Grego Doce de Leite e Brownie",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 86.25,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-havanna-grego-doce-de-leite-e-morango",
+    "nome": "Barra Proteica Havanna Grego Doce de Leite e Morango",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 86.25,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-havanna-protobar-doce-de-leite-e-brownie",
+    "nome": "Barra Havanna Protobar Doce de Leite e Brownie",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 109.77,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-havanna-protobar-doce-de-leite",
+    "nome": "Barra Proteica Havanna Protobar Doce de Leite",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 109.77,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-yopro-chocolate",
+    "nome": "Barra Proteica YoPro Chocolate",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 119.18,
+    "vendas": 0
+  },
+  {
+    "slug": "barra-proteica-yopro-morango-com-chocolate-branco",
+    "nome": "Barra Proteica YoPro Morango com Chocolate Branco",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 119.18,
+    "vendas": 0
+  },
+  {
+    "slug": "coqueteleira-transparente-nutrata",
+    "nome": "Coqueteleira Transparente Nutrata",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 12.96,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-creatin-up-refil-300g",
+    "nome": "Creatina Creatin Up Refil 300g",
+    "marca": "Nutrata",
+    "categoria": "Creatina",
+    "preco": 37.25,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-creatin-up-refil-500g",
+    "nome": "Creatina Creatin Up Refil 500g",
+    "marca": "Nutrata",
+    "categoria": "Creatina",
+    "preco": 45.16,
+    "vendas": 0
+  },
+  {
+    "slug": "expositor-de-chao-charge",
+    "nome": "Expositor de Chão Charge",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 90.8,
+    "vendas": 0
+  },
+  {
+    "slug": "expositor-de-chao-display-slim",
+    "nome": "Expositor de Chão Display Slim",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 82.34,
+    "vendas": 0
+  },
+  {
+    "slug": "garrafa-slim-nutrata-600ml",
+    "nome": "Garrafa Slim Nutrata 600ml",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 12.18,
+    "vendas": 0
+  },
+  {
+    "slug": "omega-ultra-tg-60-capsulas",
+    "nome": "Ômega Ultra TG 60 cápsulas",
+    "marca": "Nutrata",
+    "categoria": "Ômega e óleos",
+    "preco": 65.87,
+    "vendas": 0
+  },
+  {
+    "slug": "npro-whey-baunilha-refil-900g",
+    "nome": "NPRO Whey Baunilha Refil 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 130.83,
+    "vendas": 98
+  },
+  {
+    "slug": "npro-whey-chocolate-refil-900g",
+    "nome": "NPRO Whey Chocolate Refil 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 130.83,
+    "vendas": 0
+  },
+  {
+    "slug": "npro-whey-morango-refil-900g",
+    "nome": "NPRO Whey Morango Refil 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 130.83,
+    "vendas": 0
+  },
+  {
+    "slug": "nutra-beef-protein-frutas-citricas-900g",
+    "nome": "Nutra Beef Protein Frutas Cítricas 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 156.42,
+    "vendas": 0
+  },
+  {
+    "slug": "nutra-beef-protein-frutas-roxas-900g",
+    "nome": "Nutra Beef Protein Frutas Roxas 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 156.42,
+    "vendas": 0
+  },
+  {
+    "slug": "nutra-beef-protein-frutas-tropicais-900g",
+    "nome": "Nutra Beef Protein Frutas Tropicais 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 156.42,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-zero-lactose-chocolate-900g",
+    "nome": "Whey Zero Lactose Chocolate 900g",
+    "marca": "Nutrata",
+    "categoria": "Proteínas",
+    "preco": 246.98,
+    "vendas": 0
+  },
+  {
+    "slug": "salgado-proteico-zig-fit-barbecue-40g",
+    "nome": "Salgado Proteico Zig Fit Barbecue 40g",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 7.7,
+    "vendas": 0
+  },
+  {
+    "slug": "salgado-proteico-zig-fit-dois-queijos-40g",
+    "nome": "Salgado Proteico Zig Fit Dois Queijos 40g",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 7.7,
+    "vendas": 0
+  },
+  {
+    "slug": "salgado-proteico-zig-fit-lemon-pepper",
+    "nome": "Salgado Proteico Zig Fit Lemon Pepper",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 7.7,
+    "vendas": 0
+  },
+  {
+    "slug": "stopper-nutrata",
+    "nome": "Stopper Nutrata",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 7.34,
+    "vendas": 0
+  },
+  {
+    "slug": "proto-wafer-havanna-doce-de-leite",
+    "nome": "Proto Wafer Havanna Doce de Leite",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 70.56,
+    "vendas": 0
+  },
+  {
+    "slug": "proto-wafer-morango-display-12-unidades",
+    "nome": "Proto Wafer Morango Display 12 unidades",
+    "marca": "Nutrata",
+    "categoria": "Barras e snacks",
+    "preco": 61.16,
+    "vendas": 0
+  },
+  {
+    "slug": "wobbler-charge",
+    "nome": "Wobbler Charge",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 3.52,
+    "vendas": 0
+  },
+  {
+    "slug": "wobbler-nutrata",
+    "nome": "Wobbler Nutrata",
+    "marca": "Nutrata",
+    "categoria": "Acessórios",
+    "preco": 2.35,
+    "vendas": 0
+  },
+  {
+    "slug": "gel-massageador-32-ervas-220g",
+    "nome": "Gel Massageador 32 Ervas 220g",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 9.22,
+    "vendas": 0
+  },
+  {
+    "slug": "glutamina-100-pura-150g",
+    "nome": "Glutamina 100% Pura 150g",
+    "marca": "Macrophytus",
+    "categoria": "Aminoácidos",
+    "preco": 47.78,
+    "vendas": 0
+  },
+  {
+    "slug": "hormofemme-60-capsulas-softgel",
+    "nome": "Hormofemme 60 cápsulas softgel",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 55.39,
+    "vendas": 0
+  },
+  {
+    "slug": "hyaluron-msm-cartiflan-60-capsulas",
+    "nome": "Hyaluron + MSM Cartiflan 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 75.82,
+    "vendas": 0
+  },
+  {
+    "slug": "l-tryptophan-triptofano-30-capsulas",
+    "nome": "L-Tryptophan (Triptofano) 30 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Sono",
+    "preco": 17.58,
+    "vendas": 0
+  },
+  {
+    "slug": "maca-peruana-150g",
+    "nome": "Maca Peruana 150g",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 38.8,
+    "vendas": 0
+  },
+  {
+    "slug": "macrofix-mdkca-60-capsulas",
+    "nome": "Macrofix MDKCa 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 33.74,
+    "vendas": 0
+  },
+  {
+    "slug": "macrogerin-30-capsulas-softgel",
+    "nome": "Macrogerin 30 cápsulas softgel",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 22.76,
+    "vendas": 0
+  },
+  {
+    "slug": "macroviron-feno-grego-30-capsulas",
+    "nome": "Macroviron (Feno Grego) 30 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 48.86,
+    "vendas": 0
+  },
+  {
+    "slug": "magnesio-dimalato-60-capsulas",
+    "nome": "Magnésio Dimalato 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 24.39,
+    "vendas": 0
+  },
+  {
+    "slug": "magnesio-dimalato-curcuma-60-capsulas",
+    "nome": "Magnésio Dimalato + Cúrcuma 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 29.11,
+    "vendas": 0
+  },
+  {
+    "slug": "magnesio-quelato-550mg-30-capsulas",
+    "nome": "Magnésio Quelato 550mg 30 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 18.71,
+    "vendas": 0
+  },
+  {
+    "slug": "mdk-cartiflan-60-capsulas",
+    "nome": "MDK Cartiflan 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 57.62,
+    "vendas": 0
+  },
+  {
+    "slug": "melanil-melatonina-triptofano-60-capsulas",
+    "nome": "Melanil Melatonina + Triptofano 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Sono",
+    "preco": 34.65,
+    "vendas": 0
+  },
+  {
+    "slug": "nac-n-acetil-selenio-e-molibdenio-30-capsulas",
+    "nome": "NAC N-Acetil, Selênio e Molibdênio 30 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 39.18,
+    "vendas": 0
+  },
+  {
+    "slug": "oleo-de-coco-extravirgem-500ml",
+    "nome": "Óleo de Coco Extravirgem 500ml",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 36.21,
+    "vendas": 0
+  },
+  {
+    "slug": "oleo-de-coco-sem-sabor-200ml",
+    "nome": "Óleo de Coco Sem Sabor 200ml",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 18.02,
+    "vendas": 0
+  },
+  {
+    "slug": "oleo-de-coco-sem-sabor-500ml",
+    "nome": "Óleo de Coco Sem Sabor 500ml",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 37.35,
+    "vendas": 0
+  },
+  {
+    "slug": "oleo-de-semente-de-abobora-60-capsulas",
+    "nome": "Óleo de Semente de Abóbora 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 26.06,
+    "vendas": 0
+  },
+  {
+    "slug": "omega-3-1400mg-120-capsulas",
+    "nome": "Ômega 3 1400mg 120 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 34.61,
+    "vendas": 0
+  },
+  {
+    "slug": "omega-3-6-9-60-capsulas",
+    "nome": "Ômega 3-6-9 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 34.3,
+    "vendas": 0
+  },
+  {
+    "slug": "ora-pro-nobis-150g",
+    "nome": "Ora-pro-nóbis 150g",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 44.33,
+    "vendas": 0
+  },
+  {
+    "slug": "oleo-de-primula-60-capsulas",
+    "nome": "Óleo de Prímula 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Ômega e óleos",
+    "preco": 23.84,
+    "vendas": 0
+  },
+  {
+    "slug": "promen-40-60-capsulas",
+    "nome": "Promen 40+ 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 29.19,
+    "vendas": 0
+  },
+  {
+    "slug": "taurina-pura-120g",
+    "nome": "Taurina Pura 120g",
+    "marca": "Macrophytus",
+    "categoria": "Aminoácidos",
+    "preco": 60.21,
+    "vendas": 0
+  },
+  {
+    "slug": "macrocalm-triptofano-vitaminas-60-capsulas",
+    "nome": "Macrocalm Triptofano + Vitaminas 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Sono",
+    "preco": 29.97,
+    "vendas": 0
+  },
+  {
+    "slug": "vinagre-de-laranja-530ml",
+    "nome": "Vinagre de Laranja 530ml",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 15.93,
+    "vendas": 0
+  },
+  {
+    "slug": "vinagre-de-maca-530ml",
+    "nome": "Vinagre de Maçã 530ml",
+    "marca": "Macrophytus",
+    "categoria": "Saúde e bem-estar",
+    "preco": 14.53,
+    "vendas": 0
+  },
+  {
+    "slug": "vitamina-b12-cobalamina-60-capsulas",
+    "nome": "Vitamina B12 (Cobalamina) 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 23.37,
+    "vendas": 0
+  },
+  {
+    "slug": "vitamina-b12-mastigavel-morango-30-comprimidos",
+    "nome": "Vitamina B12 Mastigável Morango 30 comprimidos",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 20.26,
+    "vendas": 0
+  },
+  {
+    "slug": "macrovit-vitamina-c-1g-60-capsulas",
+    "nome": "Macrovit Vitamina C 1g 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 19.86,
+    "vendas": 0
+  },
+  {
+    "slug": "macrovit-vitamina-c-zinco-1g-60-capsulas",
+    "nome": "Macrovit Vitamina C + Zinco 1g 60 cápsulas",
+    "marca": "Macrophytus",
+    "categoria": "Vitaminas e minerais",
+    "preco": 21.48,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-baunilha",
+    "nome": "Whey Supreme 900g Baunilha",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-chocolate",
+    "nome": "Whey Supreme 900g Chocolate",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 61
+  },
+  {
+    "slug": "whey-supreme-900g-chocolate-branco",
+    "nome": "Whey Supreme 900g Chocolate Branco",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-coco",
+    "nome": "Whey Supreme 900g Coco",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-cookies",
+    "nome": "Whey Supreme 900g Cookies",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-leite-em-po",
+    "nome": "Whey Supreme 900g Leite em Pó",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-supreme-900g-morango",
+    "nome": "Whey Supreme 900g Morango",
+    "marca": "Macrophytus",
+    "categoria": "Proteínas",
+    "preco": 103.03,
+    "vendas": 0
+  },
+  {
+    "slug": "beef-protein-frutas-vermelhas-900g",
+    "nome": "Beef Protein Frutas Vermelhas 900g",
+    "marca": "Integralmedica",
+    "categoria": "Proteínas",
+    "preco": 169.3,
+    "vendas": 0
+  },
+  {
+    "slug": "coqueteleira-1-dose",
+    "nome": "Coqueteleira 1 Dose",
+    "marca": "Integralmedica",
+    "categoria": "Acessórios",
+    "preco": 9.46,
+    "vendas": 0
+  },
+  {
+    "slug": "creamass-hipercalorico-baunilha-3kg",
+    "nome": "Creamass Hipercalórico Baunilha 3kg",
+    "marca": "Integralmedica",
+    "categoria": "Proteínas",
+    "preco": 112.91,
+    "vendas": 0
+  },
+  {
+    "slug": "creamass-hipercalorico-chocolate-3kg",
+    "nome": "Creamass Hipercalórico Chocolate 3kg",
+    "marca": "Integralmedica",
+    "categoria": "Proteínas",
+    "preco": 112.91,
+    "vendas": 0
+  },
+  {
+    "slug": "creamass-hipercalorico-cookies-3kg",
+    "nome": "Creamass Hipercalórico Cookies 3kg",
+    "marca": "Integralmedica",
+    "categoria": "Proteínas",
+    "preco": 112.91,
+    "vendas": 0
+  },
+  {
+    "slug": "creamass-hipercalorico-morango-3kg",
+    "nome": "Creamass Hipercalórico Morango 3kg",
+    "marca": "Integralmedica",
+    "categoria": "Proteínas",
+    "preco": 112.91,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-hardcore-300g",
+    "nome": "Creatina Hardcore 300g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 46.36,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-hardcore-500g",
+    "nome": "Creatina Hardcore 500g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 57.58,
+    "vendas": 95
+  },
+  {
+    "slug": "creatina-hardcore-limao-display-30-saches-3-5g",
+    "nome": "Creatina Hardcore Limão Display 30 sachês 3,5g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 63.5,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-hardcore-limao-350g",
+    "nome": "Creatina Hardcore Limão 350g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 57.97,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-hardcore-morango-display-30-saches-3-5g",
+    "nome": "Creatina Hardcore Morango Display 30 sachês 3,5g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 63.5,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-hardcore-morango-350g",
+    "nome": "Creatina Hardcore Morango 350g",
+    "marca": "Integralmedica",
+    "categoria": "Creatina",
+    "preco": 57.97,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-brownie-de-chocolate-12-un-45g",
+    "nome": "Crisp Bar Brownie de Chocolate 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-cookies-and-cream-12-un-45g",
+    "nome": "Crisp Bar Cookies and Cream 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-creme-de-coco-12-un-45g",
+    "nome": "Crisp Bar Creme de Coco 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-doce-de-coco-12-un-45g",
+    "nome": "Crisp Bar Doce de Coco 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-duo-crunch-12-un-45g",
+    "nome": "Crisp Bar Duo Crunch 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 104.17,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-leite-em-po-com-creme-de-avela-12-un-45g",
+    "nome": "Crisp Bar Leite em Pó com Creme de Avelã 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-ovomaltine-12-un-45g",
+    "nome": "Crisp Bar Ovomaltine 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-peanut-butter-12-un-45g",
+    "nome": "Crisp Bar Peanut Butter 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 107.18,
+    "vendas": 0
+  },
+  {
+    "slug": "crisp-bar-trufa-de-avela-12-un-45g",
+    "nome": "Crisp Bar Trufa de Avelã 12 un. 45g",
+    "marca": "Integralmedica",
+    "categoria": "Barras e snacks",
+    "preco": 102.64,
+    "vendas": 0
+  },
+  {
+    "slug": "galao-body-size-2-2l",
+    "nome": "Galão Body Size 2,2L",
+    "marca": "Integralmedica",
+    "categoria": "Acessórios",
+    "preco": 13.27,
+    "vendas": 0
+  },
+  {
+    "slug": "glutamine-300g",
+    "nome": "Glutamine 300g",
+    "marca": "Integralmedica",
+    "categoria": "Aminoácidos",
+    "preco": 59.91,
+    "vendas": 0
+  },
+  {
+    "slug": "beauty-gum-goma-de-mascar",
+    "nome": "Beauty Gum Goma de Mascar",
+    "marca": "Florestal",
+    "categoria": "Saúde e bem-estar",
+    "preco": 23.94,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-gummy",
+    "nome": "Creatina Gummy",
+    "marca": "Florestal",
+    "categoria": "Creatina",
+    "preco": 55.61,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-de-creatina-21-unidades",
+    "nome": "Pastilha de Creatina 21 unidades",
+    "marca": "Florestal",
+    "categoria": "Creatina",
+    "preco": 19.31,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-de-creatina-90-unidades",
+    "nome": "Pastilha de Creatina 90 unidades",
+    "marca": "Florestal",
+    "categoria": "Creatina",
+    "preco": 42.73,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-vitamina-c-kids-45g",
+    "nome": "Goma Vitamina C Kids 45g",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 5.31,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-vitamina-c-d-e-zinco",
+    "nome": "Goma Vitamina C, D e Zinco",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 6.95,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-de-melatonina",
+    "nome": "Pastilha de Melatonina",
+    "marca": "Florestal",
+    "categoria": "Sono",
+    "preco": 13.73,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-picolinato-de-cromo",
+    "nome": "Pastilha Picolinato de Cromo",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 13.73,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-coenzima-q10",
+    "nome": "Pastilha Coenzima Q10",
+    "marca": "Florestal",
+    "categoria": "Saúde e bem-estar",
+    "preco": 21.45,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-vitamina-b12",
+    "nome": "Pastilha Vitamina B12",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 13.73,
+    "vendas": 0
+  },
+  {
+    "slug": "pastilha-vitamina-d",
+    "nome": "Pastilha Vitamina D",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 13.73,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-melatonina-flowpro",
+    "nome": "Goma Melatonina Flowpro",
+    "marca": "Florestal",
+    "categoria": "Sono",
+    "preco": 16.98,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-polivitaminico-kids",
+    "nome": "Goma Polivitamínico Kids",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 46.33,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-vitamina-c",
+    "nome": "Goma Vitamina C",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 27.8,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-vitamina-d-flowpro-90g",
+    "nome": "Goma Vitamina D Flowpro 90g",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 25.74,
+    "vendas": 0
+  },
+  {
+    "slug": "goma-vitamina-d-kids-flowpro-75g",
+    "nome": "Goma Vitamina D Kids Flowpro 75g",
+    "marca": "Florestal",
+    "categoria": "Vitaminas e minerais",
+    "preco": 25.74,
+    "vendas": 0
+  },
+  {
+    "slug": "carnibol-baunilha-900g",
+    "nome": "Carnibol Baunilha 900g",
+    "marca": "Darkness",
+    "categoria": "Proteínas",
+    "preco": 155.03,
+    "vendas": 74,
+    "vitrine": true
+  },
+  {
+    "slug": "carnibol-blueberry-900g",
+    "nome": "Carnibol Blueberry 900g",
+    "marca": "Darkness",
+    "categoria": "Proteínas",
+    "preco": 161.77,
+    "vendas": 0
+  },
+  {
+    "slug": "carnibol-chocolate-900g",
+    "nome": "Carnibol Chocolate 900g",
+    "marca": "Darkness",
+    "categoria": "Proteínas",
+    "preco": 155.03,
+    "vendas": 0
+  },
+  {
+    "slug": "carnibol-salted-caramel-900g",
+    "nome": "Carnibol Salted Caramel 900g",
+    "marca": "Darkness",
+    "categoria": "Proteínas",
+    "preco": 161.77,
+    "vendas": 0
+  },
+  {
+    "slug": "evora-xt-bloody-berry-300g",
+    "nome": "Évora XT Bloody Berry 300g",
+    "marca": "Darkness",
+    "categoria": "Pré-treino",
+    "preco": 102.26,
+    "vendas": 0
+  },
+  {
+    "slug": "evora-xt-neon-berry-300g",
+    "nome": "Évora XT Neon Berry 300g",
+    "marca": "Darkness",
+    "categoria": "Pré-treino",
+    "preco": 105.79,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-100-pura-150g",
+    "nome": "Creatina 100% Pura 150g",
+    "marca": "Black Pharma",
+    "categoria": "Creatina",
+    "preco": 35.59,
+    "vendas": 0
+  },
+  {
+    "slug": "creatina-100-pura-300g",
+    "nome": "Creatina 100% Pura 300g",
+    "marca": "Black Pharma",
+    "categoria": "Creatina",
+    "preco": 53.27,
+    "vendas": 0
+  },
+  {
+    "slug": "morning-shot-pessego-com-cha-branco-225g",
+    "nome": "Morning Shot Pêssego com Chá Branco 225g",
+    "marca": "Black Pharma",
+    "categoria": "Pré-treino",
+    "preco": 71.1,
+    "vendas": 0
+  },
+  {
+    "slug": "pre-treino-shock-abacaxi-hortela-300g",
+    "nome": "Pré-Treino Shock Abacaxi com Hortelã 300g",
+    "marca": "Black Pharma",
+    "categoria": "Pré-treino",
+    "preco": 81.78,
+    "vendas": 79
+  },
+  {
+    "slug": "pre-treino-shock-maca-verde-300g",
+    "nome": "Pré-Treino Shock Maçã Verde 300g",
+    "marca": "Black Pharma",
+    "categoria": "Pré-treino",
+    "preco": 81.78,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-protein-100-cookies-and-cream-450g",
+    "nome": "Whey Protein 100% Cookies and Cream 450g",
+    "marca": "Black Pharma",
+    "categoria": "Proteínas",
+    "preco": 117.42,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-protein-100-doce-de-leite-450g",
+    "nome": "Whey Protein 100% Doce de Leite 450g",
+    "marca": "Black Pharma",
+    "categoria": "Proteínas",
+    "preco": 117.42,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-protein-100-milkshake-de-morango-450g",
+    "nome": "Whey Protein 100% Milkshake de Morango 450g",
+    "marca": "Black Pharma",
+    "categoria": "Proteínas",
+    "preco": 117.42,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-protein-100-sorvete-de-baunilha-450g",
+    "nome": "Whey Protein 100% Sorvete de Baunilha 450g",
+    "marca": "Black Pharma",
+    "categoria": "Proteínas",
+    "preco": 117.42,
+    "vendas": 0
+  },
+  {
+    "slug": "whey-protein-100-trufa-de-chocolate-450g",
+    "nome": "Whey Protein 100% Trufa de Chocolate 450g",
+    "marca": "Black Pharma",
+    "categoria": "Proteínas",
+    "preco": 117.42,
+    "vendas": 0
+  }
 ]
