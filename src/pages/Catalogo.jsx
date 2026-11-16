@@ -53,7 +53,7 @@ export default function Catalogo() {
 
       <section className="wrap page-title">
         <h1>{q ? `Resultados para “${q}”` : 'Catálogo'}</h1>
-        <p>{PRODUTOS.length} produtos de {MARCAS.length} marcas, todos com nota fiscal.</p>
+        <p>{PRODUTOS.length} produtos de {MARCAS.length} marcas.</p>
         <div role="group" aria-label="Filtrar por marca" className="chips">
           {[{ nome: 'Todas', total: PRODUTOS.length }, ...MARCAS].map((m) => (
             <button key={m.nome} type="button" className="chip" aria-pressed={marca === m.nome}

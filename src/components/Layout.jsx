@@ -86,7 +86,7 @@ export default function Layout() {
     <>
       <div className="topbar">
         <div className="wrap">
-          <span>Produtos originais com nota fiscal · Envio para todo o Brasil</span>
+          <span>Produtos originais · Envio para todo o Brasil</span>
         </div>
       </div>
       <Header />

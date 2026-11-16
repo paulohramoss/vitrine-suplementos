@@ -5,7 +5,7 @@ import { IconeCheck, IconeEscudo } from '../components/Icones'
 import { LOJA, MARCAS, PRODUTOS, moeda } from '../lib/catalogo'
 
 const CONFIANCA = [
-  { titulo: 'Produtos originais', texto: 'Comprados direto das marcas, com nota fiscal.' },
+  { titulo: 'Produtos originais', texto: 'Comprados direto das marcas.' },
   { titulo: 'Pedido pelo WhatsApp', texto: 'Um atendente confirma estoque e prazo com você.' },
   { titulo: 'Validade conferida', texto: 'Lotes recentes, conferidos antes do envio.' },
 ]
@@ -21,7 +21,7 @@ export default function Home() {
       <section className="wrap hero">
         <div className="hero-text">
           <h1>Suplementos originais, com preço de quem compra direto.</h1>
-          <p>Nota fiscal em todo pedido e atendimento de verdade pelo WhatsApp.</p>
+          <p>Atendimento de verdade pelo WhatsApp, do pedido à entrega.</p>
           <ul className="hero-marcas" aria-label="Marcas disponíveis">
             {MARCAS.slice(0, 4).map((m) => <li key={m.nome}>{m.nome}</li>)}
             <li className="hero-marcas-mais">e mais</li>
