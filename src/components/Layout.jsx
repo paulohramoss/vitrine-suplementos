@@ -57,7 +57,7 @@ function Footer() {
       <div className="wrap">
         <div className="footer-brand"><img src="/marca/bz-logo-horizontal.svg" alt={LOJA.nome} className="footer-logo" width="165" height="30" loading="lazy" /></div>
         <div><strong>Atendimento</strong><span><a href={`https://wa.me/${LOJA.whatsapp}`} target="_blank" rel="noreferrer">{LOJA.whatsappExibicao}</a></span><span>{LOJA.horario}</span></div>
-        <div><strong>Pagamento</strong><span>Pix ou cartão em {LOJA.parcelas}x sem juros</span></div>
+        <div><strong>Pagamento</strong><span>Pix ou dinheiro</span></div>
       </div>
     </footer>
   )

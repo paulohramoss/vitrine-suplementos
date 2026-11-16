@@ -7,7 +7,6 @@ export const LOJA = {
   horario: 'Seg a sex, 8h às 18h',
   whatsapp: import.meta.env.VITE_WHATSAPP || '554988048588',
   whatsappExibicao: '(49) 98804-8588',
-  parcelas: 3,
 }
 
 // Ordem fixa das categorias no menu e nos filtros
@@ -28,7 +27,6 @@ export const PRECO_MAX = Math.ceil(Math.max(...produtos.map((p) => p.preco)) / 5
 
 const brl = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' })
 export const moeda = (v) => brl.format(v)
-export const parcela = (v) => moeda(v / LOJA.parcelas)
 
 export const imagemDe = (p) => `/produtos/${p.slug}.jpg`
 

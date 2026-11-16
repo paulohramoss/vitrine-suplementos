@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import FotoProduto from './FotoProduto'
-import { moeda, parcela, LOJA } from '../lib/catalogo'
+import { moeda } from '../lib/catalogo'
 import { useCarrinho } from '../store/carrinho'
 
 export default function CardProduto({ produto, comQuantidade = false }) {
@@ -22,7 +22,7 @@ export default function CardProduto({ produto, comQuantidade = false }) {
         <div className="card-brand">{produto.marca}</div>
         <h3 className="card-name" style={{ fontFamily: 'var(--font-body)', fontWeight: 600, letterSpacing: 0 }}>{produto.nome}</h3>
         <div className="price">{moeda(produto.preco)}</div>
-        <div className="installments">ou {LOJA.parcelas}x de {parcela(produto.preco)} sem juros</div>
+        <div className="installments">no Pix ou dinheiro</div>
         <div className="card-actions">
           {comQuantidade && (
             <div className="stepper">

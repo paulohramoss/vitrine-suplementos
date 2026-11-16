@@ -30,7 +30,7 @@ export default function Home() {
             <Link to="/catalogo" className="btn btn-primary">Ver catálogo completo</Link>          </div>
           <div className="checks">
             <span><IconeCheck />{PRODUTOS.length} produtos em estoque</span>
-            <span><IconeCheck />{LOJA.parcelas}x sem juros no cartão</span>
+            <span><IconeCheck />Pagamento no Pix ou dinheiro</span>
           </div>
         </div>
 

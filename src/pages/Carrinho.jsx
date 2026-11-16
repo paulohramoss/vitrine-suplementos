@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FotoProduto from '../components/FotoProduto'
-import { LOJA, linkWhatsApp, moeda, parcela } from '../lib/catalogo'
+import { LOJA, linkWhatsApp, moeda } from '../lib/catalogo'
 import { useCarrinho, useLinhasCarrinho } from '../store/carrinho'
 
 export default function Carrinho() {
@@ -70,10 +70,10 @@ export default function Carrinho() {
 
         <form className="summary" onSubmit={finalizar}>
           <div className="total"><span style={{ fontSize: 16 }}>Total</span><span>{moeda(total)}</span></div>
-          <div className="installments">ou {LOJA.parcelas}x de {parcela(total)} sem juros · frete combinado no atendimento</div>
+          <div className="installments">Pix ou dinheiro · frete combinado no atendimento</div>
           <label className="field">Seu nome<input required autoComplete="name" {...campo('nome')} /></label>
           <label className="field">Cidade / UF<input required autoComplete="address-level2" placeholder="Ex.: São Miguel do Oeste / SC" {...campo('cidade')} /></label>
-          <label className="field">Observação (opcional)<textarea rows="2" placeholder="Sabor alternativo, CNPJ para nota…" {...campo('obs')} /></label>
+          <label className="field">Observação (opcional)<textarea rows="2" placeholder="Sabor alternativo, melhor horário…" {...campo('obs')} /></label>
           {!LOJA.whatsapp && <p className="warn" style={{ margin: 0 }}>Configure o número em <code>VITE_WHATSAPP</code> no arquivo .env pra liberar o envio.</p>}
           <button type="submit" className="btn btn-primary btn-block" disabled={!LOJA.whatsapp}>Finalizar no WhatsApp →</button>
           <Link to="/catalogo" style={{ textAlign: 'center', fontSize: 14, fontWeight: 600 }}>Continuar comprando</Link>
