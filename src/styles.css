@@ -151,7 +151,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 800; letter-spacing:
 
 /* Footer */
 .footer { background: var(--surface); border-top: 1px solid var(--line); }
-.footer .wrap { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding-block: 40px; font-size: 14px; color: var(--muted); }
+.footer .wrap { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; padding-block: 40px; font-size: 14px; color: var(--muted); }
 .footer .wrap > div { display: flex; flex-direction: column; gap: 8px; }
 .footer strong { color: var(--ink); font-weight: 600; }
 .footer .wrap > .footer-brand { justify-content: center; }
